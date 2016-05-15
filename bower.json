@@ -1,8 +1,8 @@
 {
-  "name": "seed-element",
+  "name": "aaj-tag-input",
   "version": "1.0.0",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Abdullah Al Jahid <abdullah.al.jahid@gmail.com>"
   ],
   "description": "An element providing a solution to no problem in particular.",
   "keywords": [
@@ -11,9 +11,9 @@
     "polymer",
     "seed"
   ],
-  "main": "seed-element.html",
+  "main": "aaj-tag-input.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/aajahid/aaj-tag-input/",
   "ignore": [
     "/.*",
     "/test/",

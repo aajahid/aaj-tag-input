@@ -14,43 +14,30 @@ An element providing a solution to no problem in particular.
 
 Example:
 
-    <seed-element></seed-element>
+    <aaj-tag-input></aaj-tag-input>
 
 @demo
 -->
-<dom-module id="seed-element">
+<dom-module id="aaj-tag-input">
 
   <style>
-    :host {
-      display: block;
-      box-sizing: border-box;
-    }
-
-    .author img {
-      float: left;
-      margin-right: 5px;
-      max-height: 100px;
-      max-width: 100px;
+    .input-container {
+      
     }
   </style>
-
   <template>
-    <h1>&lt;seed-element&gt;</h1>
-    <content></content>
-    <p class="author">
-      <img src="{{author.image}}">
-      Cheers,<br/>
-      <span class="name">{{author.name}}</span>
-    </p>
-  </template>
+  <div class="input-container">
 
+    <input type="text">
+  </div>
+  </template>
 </dom-module>
 
 <script>
 
   Polymer({
 
-    is: 'seed-element',
+    is: 'aaj-tag-input',
 
     properties: {
 
